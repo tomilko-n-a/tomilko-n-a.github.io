@@ -44,7 +44,7 @@ function create_line_random(color){
     create_line(ax, ay, bx, by, color);
 };
 
-max_lines = 7;
+max_glyph_lines = 7;
 
 f1=function(){
     while ( i < 5){
@@ -53,10 +53,9 @@ f1=function(){
     }
 }
 
-f=function(){
-    f1()
-    i=i+1; if (i<7) setTimeout(f, "10");
-};
+
+f=function(){ while ( i < max_glyph_lines){i++ ; create_line_random('black');}};
+//f=function(){ f1(); i=i+1; if (i<7) setTimeout(f, "10"); };
 
 f()
 
