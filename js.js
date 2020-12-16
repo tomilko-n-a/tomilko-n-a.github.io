@@ -18,9 +18,9 @@ function create_line(a0, b0, a1, b1, color){
 
 function create_line_random(color){
     ax = size[0] * Math.round(Math.random()* (grid_size_x - 0) + 0);
-    ay = size[1] * Math.round(Math.random()* (grid_size_x - 0) + 0);
+    ay = size[1] * Math.round(Math.random()* (grid_size_y - 0) + 0);
     bx = size[0] * Math.round(Math.random()* (grid_size_x - 0) + 0);
-    by = size[1] * Math.round(Math.random()* (grid_size_x - 0) + 0);
+    by = size[1] * Math.round(Math.random()* (grid_size_y - 0) + 0);
     create_line(ax, ay, bx, by, color);
 };
 
