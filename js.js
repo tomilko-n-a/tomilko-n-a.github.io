@@ -3,8 +3,8 @@ var ctx = canvas.getContext('2d');
 
 var size = [50,50];
 
-var grid_size_x = 3;
-var grid_size_y = 3;
+var grid_size_x = 2;
+var grid_size_y = 2;
 var border = 50;
 
 function create_line(a0, b0, a1, b1, color){
