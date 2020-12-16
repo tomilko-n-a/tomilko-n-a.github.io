@@ -11,7 +11,7 @@ function create_line(a0, b0, a1, b1, color){
     ctx.moveTo(a0 + border,b0 + border);
     ctx.lineTo(a1 + border,b1 + border);
     ctx.lineCap = 'round';
-    ctx.lineWidth = '5';
+    ctx.lineWidth = '3';
     ctx.strokeStyle = color;
     ctx.stroke();
 };
